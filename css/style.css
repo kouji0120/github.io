@@ -91,7 +91,7 @@ span.label-right{
 /*ページ内ジャンプ*/
 h2[id]{
     display: block;
-    padding-top: 100px;
+    padding-top: 200px;
     margin-top: -100px;
     content: "";
 }
@@ -221,10 +221,13 @@ h2[id]{
 /*---------------*/
 .fv{
     display: flex;
+    width: 1039px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .main-copy{
     padding-top: 253px;
-    padding-left: 192px;
+    padding-left: 15px;
 }
 .top-copy{
     padding-bottom: 44px;
